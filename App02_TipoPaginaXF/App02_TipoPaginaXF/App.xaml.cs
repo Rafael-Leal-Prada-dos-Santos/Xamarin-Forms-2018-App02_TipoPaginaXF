@@ -10,7 +10,7 @@ namespace App02_TipoPaginaXF
         {
             InitializeComponent();
 
-            MainPage = new TipoPagina.Carrossel.IntroducaoApp();
+            MainPage = new TipoPagina.Tabbed.Abas();
         }
 
         protected override void OnStart()
