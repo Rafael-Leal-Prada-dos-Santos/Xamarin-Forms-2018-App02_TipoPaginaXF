@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App02_TipoPaginaXF.TipoPagina.Master;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace App02_TipoPaginaXF
         {
             InitializeComponent();
 
-            MainPage = new TipoPagina.Tabbed.Abas();
+            MainPage = new NavigationPage(new FlyoutPage1());
         }
 
         protected override void OnStart()
